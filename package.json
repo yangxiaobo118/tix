@@ -1,0 +1,12 @@
+{
+  "name": "tix",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:zlargon/tix.git",
+  "author": "zlargon <zlargon@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.7.0",
+    "tixcraft": "zlargon/tixcraft"
+  }
+}
