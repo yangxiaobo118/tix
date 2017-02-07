@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 const yaml = require('js-yaml');
 const concert = yaml.safeLoad(fs.readFileSync('./concert.yml', 'utf8'));
 const tix = o => require('../..')(concert)(o).catch(e => console.error(e.stack));
