@@ -10,8 +10,8 @@ const tix = o => require('../..')(concert)(o).catch(e => console.error(e.stack))
  * area    (選填) : 座位區域 (例如: A3)，如果不填則顯示全區的連結
  */
 tix({
-  time:     '15:00:00',
-  date:     'test',
+  time:     '11:00:00',
+  date:     '21',
   browser:  'chrome',
-  area:     'B2'
+  area:     'A2'
 });
